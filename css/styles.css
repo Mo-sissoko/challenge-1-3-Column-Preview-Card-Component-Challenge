@@ -1,0 +1,114 @@
+body {
+  background-color: white;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.row {
+  display: inline-flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  width: 20rem;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  color: hsl(0, 0%, 95%);
+  margin-top: 10%;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.2rem;
+  position: relative;
+  right: 20%
+}
+
+.image {
+  margin-top: 20%;
+}
+
+.cars {
+  position: relative;
+  right: 25%
+}
+
+.sedans {
+  border-radius: 10px 0 0 10px;
+  background-color: orange;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: cyan;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  border-radius: 0 10px 10px 0;
+  background-color: cyan;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.paragraph {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  max-width: 200px;
+  color: white;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 28px;
+}
+
+.learn-more-btn{
+
+  border: 3px solid;
+  border-color: hsl(0, 0%, 95%);
+  position: relative;
+  right: 2rem;
+  margin-top: 4rem;
+  background-color:hsl(0, 0%, 95%);
+	border-radius:28px;
+	display:inline-block;
+  font-family: 'Lexend Deca', sans-serif;
+
+	font-size:15px;
+	text-decoration:none;
+  width: 10rem;
+}
+
+
+.luxury-btn{
+  color: hsl(179, 100%, 13%);
+}
+
+
+.luxury-btn:active{
+  background-color: hsl(179, 100%, 13%);
+}
+
+.sedan-btn{
+  color: hsl(31, 77%, 52%);
+}
+.sedan-btn:active{
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs-btn{
+  color: hsl(184, 100%, 22%);
+
+}
+.suvs-btn:active{
+  background-color: hsl(184, 100%, 22%);
+
+}
+
+.learn-more-btn:active{
+  color: hsl(0, 0%, 95%);
+
+}
