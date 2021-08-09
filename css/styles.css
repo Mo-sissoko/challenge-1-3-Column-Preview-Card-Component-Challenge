@@ -71,12 +71,12 @@ body {
   border-color: hsl(0, 0%, 95%);
   position: relative;
   right: 2rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   background-color:hsl(0, 0%, 95%);
 	border-radius:28px;
 	display:inline-block;
   font-family: 'Lexend Deca', sans-serif;
-
+  height: 3rem;
 	font-size:15px;
 	text-decoration:none;
   width: 10rem;
